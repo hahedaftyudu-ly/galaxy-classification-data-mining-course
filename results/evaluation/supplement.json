@@ -1,0 +1,514 @@
+{
+  "model": "RF",
+  "heldout_fold": 0,
+  "global_explanation_rows": 103,
+  "selection": "one source per true class in fold 0 sorted by source_id, plus 100 seeded random held-out sources",
+  "output_space": "class probability",
+  "expected_values": [
+    0.33333333333336224,
+    0.33333333333330484,
+    0.3333333333333327
+  ],
+  "local_samples": [
+    {
+      "source_id": "0000m016_b0-000330",
+      "true": "GALAXY",
+      "pred": "GALAXY",
+      "fold": 0,
+      "expected_probability": 0.33333333333336224,
+      "probability": 0.5023438658513102,
+      "shap_sum": 0.1690105325180843,
+      "additivity_error": 1.3633538742396922e-13,
+      "contributions": [
+        {
+          "feature": "w2sigflux",
+          "raw_value": 88.487,
+          "model_value": 88.487,
+          "shap": 0.05650992636976953
+        },
+        {
+          "feature": "w1sigflux",
+          "raw_value": 127.21,
+          "model_value": 127.21,
+          "shap": 0.05209353179493511
+        },
+        {
+          "feature": "w2snr",
+          "raw_value": 126.1,
+          "model_value": 117.7,
+          "shap": 0.035812595875022696
+        },
+        {
+          "feature": "w2sigmpro",
+          "raw_value": 0.009,
+          "model_value": 0.009,
+          "shap": 0.026566378825629126
+        },
+        {
+          "feature": "w1sigsk",
+          "raw_value": 5.79,
+          "model_value": 5.79,
+          "shap": -0.02387797913409784
+        },
+        {
+          "feature": "w2sigsk",
+          "raw_value": 20.864,
+          "model_value": 20.864,
+          "shap": 0.013902168022927285
+        },
+        {
+          "feature": "w1snr",
+          "raw_value": 90.9,
+          "model_value": 88.0,
+          "shap": -0.01251276061388493
+        },
+        {
+          "feature": "w1_w2_color",
+          "raw_value": -0.0389999999999997,
+          "model_value": -0.0389999999999997,
+          "shap": -0.011619351933265213
+        },
+        {
+          "feature": "w2flux",
+          "raw_value": 11156.0,
+          "model_value": 10170.0,
+          "shap": 0.010015450665475736
+        },
+        {
+          "feature": "w2mpro",
+          "raw_value": 12.381,
+          "model_value": 12.482,
+          "shap": 0.009669389276998007
+        },
+        {
+          "feature": "w2sky",
+          "raw_value": 1.841,
+          "model_value": 1.841,
+          "shap": 0.007048291073758184
+        },
+        {
+          "feature": "w1sky",
+          "raw_value": 0.389,
+          "model_value": 0.389,
+          "shap": 0.0053445825903292304
+        },
+        {
+          "feature": "w1sigmpro",
+          "raw_value": 0.012,
+          "model_value": 0.012,
+          "shap": -0.0052353697699477455
+        },
+        {
+          "feature": "w1flux",
+          "raw_value": 11563.0,
+          "model_value": 8972.659999999998,
+          "shap": 0.0034680925893708246
+        },
+        {
+          "feature": "w1mpro",
+          "raw_value": 12.342,
+          "model_value": 12.618,
+          "shap": 0.00182558688506428
+        }
+      ]
+    },
+    {
+      "source_id": "0000m016_b0-002386",
+      "true": "QSO",
+      "pred": "GALAXY",
+      "fold": 0,
+      "expected_probability": 0.33333333333336224,
+      "probability": 0.8508505926626885,
+      "shap_sum": 0.5175172593294224,
+      "additivity_error": 9.614531393253856e-14,
+      "contributions": [
+        {
+          "feature": "w1_w2_color",
+          "raw_value": 0.3330000000000002,
+          "model_value": 0.3330000000000002,
+          "shap": 0.19564789828067697
+        },
+        {
+          "feature": "w1flux",
+          "raw_value": 953.21,
+          "model_value": 953.21,
+          "shap": 0.08525478886451748
+        },
+        {
+          "feature": "w1mpro",
+          "raw_value": 15.052,
+          "model_value": 15.052,
+          "shap": 0.07753539278289738
+        },
+        {
+          "feature": "w1sigflux",
+          "raw_value": 16.036,
+          "model_value": 16.036,
+          "shap": 0.044761882568996346
+        },
+        {
+          "feature": "w2mpro",
+          "raw_value": 14.719,
+          "model_value": 14.719,
+          "shap": 0.03666770688461429
+        },
+        {
+          "feature": "w2flux",
+          "raw_value": 1295.5,
+          "model_value": 1295.5,
+          "shap": 0.03604733296892651
+        },
+        {
+          "feature": "w2sigsk",
+          "raw_value": 19.593,
+          "model_value": 19.593,
+          "shap": 0.0115395815128206
+        },
+        {
+          "feature": "w1sigsk",
+          "raw_value": 5.857,
+          "model_value": 5.857,
+          "shap": -0.011253919936200448
+        },
+        {
+          "feature": "w2snr",
+          "raw_value": 42.0,
+          "model_value": 42.0,
+          "shap": 0.009297566385589718
+        },
+        {
+          "feature": "w2sky",
+          "raw_value": 0.354,
+          "model_value": 0.354,
+          "shap": 0.008588455935391986
+        },
+        {
+          "feature": "w2sigflux",
+          "raw_value": 30.87,
+          "model_value": 30.87,
+          "shap": 0.008006572255005805
+        },
+        {
+          "feature": "w1snr",
+          "raw_value": 59.4,
+          "model_value": 59.4,
+          "shap": 0.006138681551261404
+        },
+        {
+          "feature": "w2sigmpro",
+          "raw_value": 0.026,
+          "model_value": 0.026,
+          "shap": 0.00596101689647511
+        },
+        {
+          "feature": "w1sigmpro",
+          "raw_value": 0.018,
+          "model_value": 0.018,
+          "shap": 0.004073318086593913
+        },
+        {
+          "feature": "w1sky",
+          "raw_value": -0.56,
+          "model_value": -0.56,
+          "shap": -0.0007490157081446205
+        }
+      ]
+    },
+    {
+      "source_id": "0000m016_b0-000994",
+      "true": "STAR",
+      "pred": "STAR",
+      "fold": 0,
+      "expected_probability": 0.3333333333333327,
+      "probability": 1.0,
+      "shap_sum": 0.6666666666667678,
+      "additivity_error": 1.0036416142611415e-13,
+      "contributions": [
+        {
+          "feature": "w1_w2_color",
+          "raw_value": -0.08199999999999896,
+          "model_value": -0.08199999999999896,
+          "shap": 0.33649132098336243
+        },
+        {
+          "feature": "w1flux",
+          "raw_value": 2802.1,
+          "model_value": 2802.1,
+          "shap": 0.11613174891045865
+        },
+        {
+          "feature": "w1mpro",
+          "raw_value": 13.881,
+          "model_value": 13.881,
+          "shap": 0.09657080701159258
+        },
+        {
+          "feature": "w1snr",
+          "raw_value": 74.0,
+          "model_value": 74.0,
+          "shap": 0.03926790305408528
+        },
+        {
+          "feature": "w1sigmpro",
+          "raw_value": 0.015,
+          "model_value": 0.015,
+          "shap": 0.032943512284538685
+        },
+        {
+          "feature": "w1sigflux",
+          "raw_value": 37.845,
+          "model_value": 37.845,
+          "shap": 0.029482314126233988
+        },
+        {
+          "feature": "w2snr",
+          "raw_value": 68.0,
+          "model_value": 68.0,
+          "shap": 0.022148876657948638
+        },
+        {
+          "feature": "w2sigflux",
+          "raw_value": 38.221,
+          "model_value": 38.221,
+          "shap": -0.018208910897505853
+        },
+        {
+          "feature": "w2sigmpro",
+          "raw_value": 0.016,
+          "model_value": 0.016,
+          "shap": 0.009495919723814816
+        },
+        {
+          "feature": "w2mpro",
+          "raw_value": 13.963,
+          "model_value": 13.963,
+          "shap": -0.007964046649980449
+        },
+        {
+          "feature": "w2sky",
+          "raw_value": -1.855,
+          "model_value": -1.855,
+          "shap": 0.006115713386218695
+        },
+        {
+          "feature": "w1sigsk",
+          "raw_value": 5.412,
+          "model_value": 5.412,
+          "shap": 0.00493617826781135
+        },
+        {
+          "feature": "w2flux",
+          "raw_value": 2599.7,
+          "model_value": 2599.7,
+          "shap": -0.00355049541272737
+        },
+        {
+          "feature": "w1sky",
+          "raw_value": -0.833,
+          "model_value": -0.833,
+          "shap": 0.0032592354202161567
+        },
+        {
+          "feature": "w2sigsk",
+          "raw_value": 19.665,
+          "model_value": 19.665,
+          "shap": -0.00045341019929973325
+        }
+      ]
+    }
+  ],
+  "error_samples": [
+    {
+      "source_id": "0060p015_b0-034957",
+      "true": "GALAXY",
+      "pred": "QSO",
+      "confidence": 1.0,
+      "w1_w2_color": 1.0459999999999994,
+      "w1mpro": 17.416,
+      "w1snr": 14.6,
+      "hypothesis": "红端颜色与QSO候选区域重叠；需用光谱或形态复核，不能仅据测光认定标签错误。"
+    },
+    {
+      "source_id": "0090p030_b0-011218",
+      "true": "GALAXY",
+      "pred": "QSO",
+      "confidence": 1.0,
+      "w1_w2_color": 1.1059999999999999,
+      "w1mpro": 16.451,
+      "w1snr": 29.8,
+      "hypothesis": "红端颜色与QSO候选区域重叠；需用光谱或形态复核，不能仅据测光认定标签错误。"
+    },
+    {
+      "source_id": "0224p196_b0-003836",
+      "true": "QSO",
+      "pred": "GALAXY",
+      "confidence": 1.0,
+      "w1_w2_color": 0.11500000000000021,
+      "w1mpro": 15.387,
+      "w1snr": 12.8,
+      "hypothesis": "蓝端或中间色的星系与恒星测光重叠；亮度、SNR和形态可能影响判别，尚未验证物理成因。"
+    },
+    {
+      "source_id": "0305m076_b0-003147",
+      "true": "QSO",
+      "pred": "GALAXY",
+      "confidence": 1.0,
+      "w1_w2_color": 0.23900000000000077,
+      "w1mpro": 13.848,
+      "w1snr": 51.1,
+      "hypothesis": "蓝端或中间色的星系与恒星测光重叠；亮度、SNR和形态可能影响判别，尚未验证物理成因。"
+    },
+    {
+      "source_id": "0034p302_b0-020655",
+      "true": "STAR",
+      "pred": "QSO",
+      "confidence": 1.0,
+      "w1_w2_color": 1.0850000000000009,
+      "w1mpro": 16.899,
+      "w1snr": 23.1,
+      "hypothesis": "红端颜色与QSO候选区域重叠；需用光谱或形态复核，不能仅据测光认定标签错误。"
+    },
+    {
+      "source_id": "0036p348_b0-005976",
+      "true": "STAR",
+      "pred": "GALAXY",
+      "confidence": 1.0,
+      "w1_w2_color": 0.13899999999999935,
+      "w1mpro": 15.177,
+      "w1snr": 23.6,
+      "hypothesis": "蓝端或中间色的星系与恒星测光重叠；亮度、SNR和形态可能影响判别，尚未验证物理成因。"
+    }
+  ],
+  "error_slices": [
+    {
+      "dimension": "真实类别",
+      "group": "GALAXY",
+      "n": 845159,
+      "wrong": 102298,
+      "error_rate": 0.12103994632962554,
+      "macro_f1": 0.31186047195039523
+    },
+    {
+      "dimension": "真实类别",
+      "group": "QSO",
+      "n": 240616,
+      "wrong": 16887,
+      "error_rate": 0.07018236526249294,
+      "macro_f1": 0.32121088127721126
+    },
+    {
+      "dimension": "真实类别",
+      "group": "STAR",
+      "n": 228903,
+      "wrong": 75358,
+      "error_rate": 0.3292136843990686,
+      "macro_f1": 0.267652944539737
+    },
+    {
+      "dimension": "W1亮度",
+      "group": "≤15 mag",
+      "n": 362843,
+      "wrong": 31544,
+      "error_rate": 0.08693567190217256,
+      "macro_f1": 0.8735319048287057
+    },
+    {
+      "dimension": "W1亮度",
+      "group": "15–16 mag",
+      "n": 553017,
+      "wrong": 60591,
+      "error_rate": 0.10956444376935971,
+      "macro_f1": 0.7485263885457126
+    },
+    {
+      "dimension": "W1亮度",
+      "group": ">16 mag",
+      "n": 398818,
+      "wrong": 102408,
+      "error_rate": 0.25677878129873777,
+      "macro_f1": 0.6973848843715089
+    },
+    {
+      "dimension": "W1信噪比",
+      "group": "≤25",
+      "n": 352552,
+      "wrong": 59848,
+      "error_rate": 0.16975651818738796,
+      "macro_f1": 0.8068908339437176
+    },
+    {
+      "dimension": "W1信噪比",
+      "group": "25–50",
+      "n": 473496,
+      "wrong": 74240,
+      "error_rate": 0.1567911872539578,
+      "macro_f1": 0.7957122596056162
+    },
+    {
+      "dimension": "W1信噪比",
+      "group": ">50",
+      "n": 488630,
+      "wrong": 60455,
+      "error_rate": 0.12372347174753903,
+      "macro_f1": 0.8425011487999782
+    },
+    {
+      "dimension": "W1−W2颜色",
+      "group": "≤0.05 mag",
+      "n": 429818,
+      "wrong": 89054,
+      "error_rate": 0.20719001996193737,
+      "macro_f1": 0.5232045762563987
+    },
+    {
+      "dimension": "W1−W2颜色",
+      "group": "0.05–0.5 mag",
+      "n": 632724,
+      "wrong": 78384,
+      "error_rate": 0.12388339939689343,
+      "macro_f1": 0.5434268317433975
+    },
+    {
+      "dimension": "W1−W2颜色",
+      "group": ">0.5 mag",
+      "n": 252136,
+      "wrong": 27105,
+      "error_rate": 0.1075015071231399,
+      "macro_f1": 0.46148770519946297
+    },
+    {
+      "dimension": "赤纬",
+      "group": "−90–0度",
+      "n": 140414,
+      "wrong": 29897,
+      "error_rate": 0.2129203640662612,
+      "macro_f1": 0.7659487988655412
+    },
+    {
+      "dimension": "赤纬",
+      "group": "0–30度",
+      "n": 665283,
+      "wrong": 98812,
+      "error_rate": 0.1485262662656343,
+      "macro_f1": 0.8092038210280615
+    },
+    {
+      "dimension": "赤纬",
+      "group": "30–60度",
+      "n": 473326,
+      "wrong": 61889,
+      "error_rate": 0.13075343420813562,
+      "macro_f1": 0.8335800558586756
+    },
+    {
+      "dimension": "赤纬",
+      "group": "60–90度",
+      "n": 35655,
+      "wrong": 3945,
+      "error_rate": 0.11064366848969288,
+      "macro_f1": 0.8799611504270515
+    }
+  ],
+  "best_error_model": "RF",
+  "elapsed_s": 136.08
+}

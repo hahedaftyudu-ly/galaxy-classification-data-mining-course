@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "pages": 22,
+  "images": 13,
+  "inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "renderer": "Codex bundled LibreOffice via render_docx.py; task-local CJK fontconfig",
+  "png_directory": "<WORKSPACE>/09_临时与构建资料/tmp/数据挖掘模板审查/final_render_v4",
+  "checks": [
+    "all pages visually inspected",
+    "no clipped Chinese text or missing glyphs",
+    "tables readable and complete",
+    "captions paired with figures",
+    "source notes clear of axis labels",
+    "source header/footer/package parts preserved",
+    "PDF text includes updated scores and local source IDs"
+  ],
+  "docx_sha256": "dd263ccb4a03fdead276194aaa5969a890fa2b9513271f29c8926535d1d8f33e",
+  "pdf_sha256": "b5457383b6a589f5d4a5a9bfac6f3bef98770789564c68f04999e737650f8a1e"
+}

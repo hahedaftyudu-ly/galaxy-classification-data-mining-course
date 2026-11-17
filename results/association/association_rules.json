@@ -1,0 +1,347 @@
+{
+  "finished_at": "2026-11-16T12:59:18+08:00",
+  "sample_rows": 150000,
+  "items": {
+    "color_blue": "W1−W2 蓝端（<0.05）",
+    "color_mid": "W1−W2 中间色（0.05–0.5）",
+    "color_red": "W1−W2 红端（>0.5）",
+    "mag_bright": "W1 亮源（<15 mag）",
+    "mag_mid": "W1 中等亮度（15–16 mag）",
+    "mag_faint": "W1 暗源（>16 mag）",
+    "snr_low": "W1 信噪比低（<25）",
+    "snr_mid": "W1 信噪比中（25–50）",
+    "snr_high": "W1 信噪比高（>50）",
+    "class_GALAXY": "星系",
+    "class_QSO": "类星体",
+    "class_STAR": "恒星"
+  },
+  "item_definitions": {
+    "color": "W1−W2 <0.05 / 0.05–0.5 / >0.5",
+    "mag": "W1 <15 / 15–16 / >16 mag",
+    "snr": "W1 SNR <25 / 25–50 / >50",
+    "class": "GALAXY / QSO / STAR"
+  },
+  "main_thresholds": {
+    "support": 0.05,
+    "confidence": 0.7,
+    "lift": 1.1
+  },
+  "efficiency": {
+    "apriori_s": 0.03,
+    "fpgrowth_s": 0.26,
+    "apriori_itemsets": 84,
+    "fpgrowth_itemsets": 84,
+    "max_rss_mb": 430.9,
+    "scan_note": "both run on the same one-hot matrix; timing is wall clock"
+  },
+  "sensitivity": [
+    {
+      "support": 0.02,
+      "confidence": 0.5,
+      "lift_min_exclusive": 1.0,
+      "itemsets": 128,
+      "rules": 149,
+      "max_lift": 7.872848964595933,
+      "elapsed_s": 0.0
+    },
+    {
+      "support": 0.02,
+      "confidence": 0.7,
+      "lift_min_exclusive": 1.1,
+      "itemsets": 128,
+      "rules": 78,
+      "max_lift": 6.549980231078015,
+      "elapsed_s": 0.0
+    },
+    {
+      "support": 0.02,
+      "confidence": 0.8,
+      "lift_min_exclusive": 1.5,
+      "itemsets": 128,
+      "rules": 40,
+      "max_lift": 6.549980231078015,
+      "elapsed_s": 0.0
+    },
+    {
+      "support": 0.05,
+      "confidence": 0.5,
+      "lift_min_exclusive": 1.0,
+      "itemsets": 84,
+      "rules": 95,
+      "max_lift": 6.549980231078015,
+      "elapsed_s": 0.0
+    },
+    {
+      "support": 0.05,
+      "confidence": 0.7,
+      "lift_min_exclusive": 1.1,
+      "itemsets": 84,
+      "rules": 52,
+      "max_lift": 6.549980231078015,
+      "elapsed_s": 0.0
+    },
+    {
+      "support": 0.05,
+      "confidence": 0.8,
+      "lift_min_exclusive": 1.5,
+      "itemsets": 84,
+      "rules": 21,
+      "max_lift": 6.549980231078015,
+      "elapsed_s": 0.0
+    },
+    {
+      "support": 0.1,
+      "confidence": 0.5,
+      "lift_min_exclusive": 1.0,
+      "itemsets": 48,
+      "rules": 53,
+      "max_lift": 4.870863345045241,
+      "elapsed_s": 0.0
+    },
+    {
+      "support": 0.1,
+      "confidence": 0.7,
+      "lift_min_exclusive": 1.1,
+      "itemsets": 48,
+      "rules": 24,
+      "max_lift": 4.870863345045241,
+      "elapsed_s": 0.0
+    },
+    {
+      "support": 0.1,
+      "confidence": 0.8,
+      "lift_min_exclusive": 1.5,
+      "itemsets": 48,
+      "rules": 5,
+      "max_lift": 4.870863345045241,
+      "elapsed_s": 0.0
+    }
+  ],
+  "rules_before_prune": 52,
+  "actionable_candidates": 24,
+  "rules_after_prune": 14,
+  "top_rules": [
+    {
+      "antecedent": "W1 信噪比中（25–50） + W1 暗源（>16 mag） + W1−W2 红端（>0.5）",
+      "consequent": "类星体",
+      "support": 0.05046666666666667,
+      "confidence": 0.9494544086291233,
+      "lift": 5.187708494312771,
+      "leverage": 0.0407385436,
+      "conviction": 16.16322962779158,
+      "antecedent_items": [
+        "color_red",
+        "mag_faint",
+        "snr_mid"
+      ],
+      "consequent_items": [
+        "class_QSO"
+      ]
+    },
+    {
+      "antecedent": "W1 信噪比中（25–50） + W1−W2 红端（>0.5）",
+      "consequent": "类星体",
+      "support": 0.0663,
+      "confidence": 0.9376767867244955,
+      "lift": 5.123356937627011,
+      "leverage": 0.053359265866666665,
+      "conviction": 13.108759273827522,
+      "antecedent_items": [
+        "color_red",
+        "snr_mid"
+      ],
+      "consequent_items": [
+        "class_QSO"
+      ]
+    },
+    {
+      "antecedent": "W1 暗源（>16 mag） + W1−W2 红端（>0.5）",
+      "consequent": "类星体",
+      "support": 0.12353333333333333,
+      "confidence": 0.8914654094101799,
+      "lift": 4.870863345045241,
+      "leverage": 0.09817164186666666,
+      "conviction": 7.52736980496454,
+      "antecedent_items": [
+        "color_red",
+        "mag_faint"
+      ],
+      "consequent_items": [
+        "class_QSO"
+      ]
+    },
+    {
+      "antecedent": "W1−W2 红端（>0.5）",
+      "consequent": "类星体",
+      "support": 0.16961333333333334,
+      "confidence": 0.8868207326850012,
+      "lift": 4.845485371462142,
+      "leverage": 0.13460892813333333,
+      "conviction": 7.2184598768093595,
+      "antecedent_items": [
+        "color_red"
+      ],
+      "consequent_items": [
+        "class_QSO"
+      ]
+    },
+    {
+      "antecedent": "W1 中等亮度（15–16 mag） + W1 信噪比低（<25）",
+      "consequent": "星系",
+      "support": 0.06386666666666667,
+      "confidence": 0.9758582051543242,
+      "lift": 1.5179791638820763,
+      "leverage": 0.02179318622222222,
+      "conviction": 14.793155836849548,
+      "antecedent_items": [
+        "mag_mid",
+        "snr_low"
+      ],
+      "consequent_items": [
+        "class_GALAXY"
+      ]
+    },
+    {
+      "antecedent": "W1 亮源（<15 mag） + W1−W2 中间色（0.05–0.5）",
+      "consequent": "星系",
+      "support": 0.17983333333333335,
+      "confidence": 0.9416015079586708,
+      "lift": 1.464691757687448,
+      "leverage": 0.057054371555555566,
+      "conviction": 6.1154547120940475,
+      "antecedent_items": [
+        "color_mid",
+        "mag_bright"
+      ],
+      "consequent_items": [
+        "class_GALAXY"
+      ]
+    },
+    {
+      "antecedent": "W1 中等亮度（15–16 mag） + W1−W2 中间色（0.05–0.5）",
+      "consequent": "星系",
+      "support": 0.19568666666666668,
+      "confidence": 0.9349875772440595,
+      "lift": 1.4544035734378193,
+      "leverage": 0.06113895911111111,
+      "conviction": 5.493309096847956,
+      "antecedent_items": [
+        "color_mid",
+        "mag_mid"
+      ],
+      "consequent_items": [
+        "class_GALAXY"
+      ]
+    },
+    {
+      "antecedent": "W1 信噪比高（>50） + W1−W2 中间色（0.05–0.5）",
+      "consequent": "星系",
+      "support": 0.177,
+      "confidence": 0.9116818899800838,
+      "lift": 1.4181508192161418,
+      "leverage": 0.052189579555555546,
+      "conviction": 4.043715759460862,
+      "antecedent_items": [
+        "color_mid",
+        "snr_high"
+      ],
+      "consequent_items": [
+        "class_GALAXY"
+      ]
+    },
+    {
+      "antecedent": "W1−W2 中间色（0.05–0.5）",
+      "consequent": "星系",
+      "support": 0.41890666666666665,
+      "confidence": 0.8712217847041206,
+      "lift": 1.3552138100758901,
+      "leverage": 0.10979923022222216,
+      "conviction": 2.7732433821418296,
+      "antecedent_items": [
+        "color_mid"
+      ],
+      "consequent_items": [
+        "class_GALAXY"
+      ]
+    },
+    {
+      "antecedent": "W1 中等亮度（15–16 mag） + W1 信噪比中（25–50） + W1−W2 蓝端（<0.05）",
+      "consequent": "星系",
+      "support": 0.06593333333333333,
+      "confidence": 0.8392735913102511,
+      "lift": 1.3055173565958484,
+      "leverage": 0.01542972799999999,
+      "conviction": 2.2219953537486794,
+      "antecedent_items": [
+        "color_blue",
+        "mag_mid",
+        "snr_mid"
+      ],
+      "consequent_items": [
+        "class_GALAXY"
+      ]
+    },
+    {
+      "antecedent": "W1 中等亮度（15–16 mag） + W1−W2 蓝端（<0.05）",
+      "consequent": "星系",
+      "support": 0.14578,
+      "confidence": 0.826136234840757,
+      "lift": 1.2850817715038219,
+      "leverage": 0.03233974799999999,
+      "conviction": 2.054098696219034,
+      "antecedent_items": [
+        "color_blue",
+        "mag_mid"
+      ],
+      "consequent_items": [
+        "class_GALAXY"
+      ]
+    },
+    {
+      "antecedent": "W1 中等亮度（15–16 mag）",
+      "consequent": "星系",
+      "support": 0.3445,
+      "confidence": 0.8178494555583691,
+      "lift": 1.2721914169216566,
+      "leverage": 0.07370741688888882,
+      "conviction": 1.9606492773771236,
+      "antecedent_items": [
+        "mag_mid"
+      ],
+      "consequent_items": [
+        "class_GALAXY"
+      ]
+    },
+    {
+      "antecedent": "W1 亮源（<15 mag）",
+      "consequent": "星系",
+      "support": 0.21176,
+      "confidence": 0.7618179637846265,
+      "lift": 1.1850326098485324,
+      "leverage": 0.03306449555555557,
+      "conviction": 1.4994133856946266,
+      "antecedent_items": [
+        "mag_bright"
+      ],
+      "consequent_items": [
+        "class_GALAXY"
+      ]
+    },
+    {
+      "antecedent": "W1 信噪比高（>50）",
+      "consequent": "星系",
+      "support": 0.26876666666666665,
+      "confidence": 0.718909376225971,
+      "lift": 1.1182869069158523,
+      "leverage": 0.02842882044444442,
+      "conviction": 1.2705273784601068,
+      "antecedent_items": [
+        "snr_high"
+      ],
+      "consequent_items": [
+        "class_GALAXY"
+      ]
+    }
+  ],
+  "elapsed_s": 1.4
+}

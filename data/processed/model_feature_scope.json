@@ -1,0 +1,37 @@
+{
+  "status": "已完成：预测仅14个测光量+W1-W2颜色；元数据仅融合验收及质量追溯",
+  "baseline_numeric_features": [
+    "w1sky",
+    "w1sigsk",
+    "w2sky",
+    "w2sigsk",
+    "w1snr",
+    "w2snr",
+    "w1flux",
+    "w1sigflux",
+    "w2flux",
+    "w2sigflux",
+    "w1mpro",
+    "w1sigmpro",
+    "w2mpro",
+    "w2sigmpro"
+  ],
+  "label": "class_01",
+  "group_key": "source_id",
+  "exclude_from_default_predictors": [
+    "source_id",
+    "source_name",
+    "cntr_01",
+    "all file paths",
+    "partition",
+    "r_mtime_ns",
+    "r_header_sha256",
+    "metadata_collected_utc",
+    "r_metadata_scope",
+    "partially collected FITS header fields"
+  ],
+  "note": "工程字段用于追溯与质量分群；不能默认作为天体分类特征。未来填补实验不填造观测时点和元数据采集深度。",
+  "actual_derived_predictors": [
+    "w1_w2_color"
+  ]
+}

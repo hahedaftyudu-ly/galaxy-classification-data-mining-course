@@ -1,0 +1,206 @@
+{
+  "finished_at": "2026-11-16T09:58:09+08:00",
+  "rows": 1314678,
+  "units": {
+    "w1flux": "DN",
+    "w2flux": "DN",
+    "w1sigflux": "DN",
+    "w2sigflux": "DN",
+    "w1mpro": "mag",
+    "w2mpro": "mag",
+    "w1sigmpro": "mag",
+    "w2sigmpro": "mag",
+    "w1snr": "dimensionless",
+    "w2snr": "dimensionless",
+    "ra": "deg",
+    "dec": "deg",
+    "dist_x": "arcsec",
+    "cutout_sdss_offset_arcsec": "arcsec",
+    "r_mjd_obs": "day"
+  },
+  "time_alignment": {
+    "acquisition_time": "metadata_collected_utc is UTC (ISO8601)",
+    "observation_time": "r_mjd_obs only for header_and_file records; not a modelling feature",
+    "timezone_conversion": "none applied; UTC kept as recorded"
+  },
+  "checks": [
+    {
+      "check": "declared dtypes",
+      "detail": {
+        "source_id": "string",
+        "source_name": "string",
+        "class_01": "string",
+        "w1sky": "double",
+        "w1sigsk": "double",
+        "w2sky": "double",
+        "w2sigsk": "double",
+        "w1snr": "double",
+        "w2snr": "double",
+        "w1flux": "double",
+        "w1sigflux": "double",
+        "w2flux": "double",
+        "w2sigflux": "double",
+        "w1mpro": "double",
+        "w1sigmpro": "double",
+        "w2mpro": "double",
+        "w2sigmpro": "double",
+        "ra": "double",
+        "dec": "double",
+        "ra_01": "double",
+        "dec_01": "double",
+        "dist_x": "double",
+        "pang_x": "double",
+        "band_count": "int16",
+        "cutout_arcsec": "double",
+        "cutout_sdss_offset_arcsec": "double",
+        "cutout_wise_offset_arcsec": "double",
+        "metadata_collected_utc": "string",
+        "r_mjd_obs": "double",
+        "r_metadata_scope": "string"
+      }
+    },
+    {
+      "check": "class label outside GALAXY/QSO/STAR",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "empty source_id",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "source_id unique",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "duplicate source_name",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "duplicate (ra, dec)",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "duplicate full row on numeric+label columns",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "ra outside [0, 360)",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "dec outside [-90, 90]",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "CatWISE match distance outside [0, 3] arcsec",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "cutout-to-SDSS offset outside [0, 3] arcsec",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "non-positive WISE flux",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "non-positive WISE SNR",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "band_count not 5",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "non-finite numeric value",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "cutout size not 60 arcsec",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "unparseable metadata_collected_utc",
+      "violations": 0,
+      "pct": 0.0
+    },
+    {
+      "check": "metadata_collected_utc range (UTC)",
+      "value": [
+        "2026-11-11 02:26:55.795191+00:00",
+        "2026-11-11 02:45:59.378710+00:00"
+      ]
+    },
+    {
+      "check": "r_mjd_obs coverage",
+      "present": 9968,
+      "pct": 0.758,
+      "range": [
+        55745.5568143879,
+        56534.3478775218
+      ]
+    },
+    {
+      "check": "metadata scope",
+      "value": {
+        "file_only": 1304710,
+        "header_and_file": 9968
+      }
+    },
+    {
+      "check": "fold join cardinality",
+      "rows": 1314678,
+      "unmatched": 0,
+      "left_only": 0,
+      "right_only": 0
+    },
+    {
+      "check": "fold distribution",
+      "value": {
+        "0": 262937,
+        "1": 262936,
+        "2": 262936,
+        "3": 262935,
+        "4": 262934
+      }
+    }
+  ],
+  "before_after": {
+    "before": {
+      "rows": 1314678,
+      "classes": {
+        "GALAXY": 845159,
+        "QSO": 240616,
+        "STAR": 228903
+      },
+      "duplicate_source_id": 0,
+      "missing_numeric_cells": 0
+    },
+    "after": {
+      "rows": 1314678,
+      "classes": {
+        "GALAXY": 845159,
+        "QSO": 240616,
+        "STAR": 228903
+      },
+      "missing_numeric_cells": 0
+    },
+    "removed_duplicates": 0
+  },
+  "conclusion": "主键唯一、关联1:1、编码与量纲一致；未发现需要删除的重复记录或主键冲突。"
+}

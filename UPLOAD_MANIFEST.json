@@ -1,0 +1,402 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 163,
+    "sha256": "e6fc5a128375c93b7adac178a8757f7e732c885ac11023f172e145f86576c755"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2497,
+    "sha256": "27daa67a34ebffceea193675aac7e8ede6f4bc706fc9349449f49d0382ed1048"
+  },
+  {
+    "path": "data/README.md",
+    "bytes": 2811,
+    "sha256": "f58152f2d8f2a41d81d134539875c104b0bd6c496706b52fcac769023bfcb149"
+  },
+  {
+    "path": "data/processed/model_feature_scope.json",
+    "bytes": 893,
+    "sha256": "10353de45d9408c6c4cc435e226b97f914383e44351852d5d9e79d826da1e3f2"
+  },
+  {
+    "path": "docs/160527C042-数据挖掘技术与应用-期末报告模板.doc",
+    "bytes": 84992,
+    "sha256": "5b37314eee87025f2cebe02d2526586453ba59a181d075e94e232e7778deb71a"
+  },
+  {
+    "path": "docs/分类模型比较报告.md",
+    "bytes": 5270,
+    "sha256": "fbf7316055fb3f8a0a24e2f15c36e4ad7ffaccd741fcae461519c65aa866b607"
+  },
+  {
+    "path": "docs/数据字典_正式版.json",
+    "bytes": 44845,
+    "sha256": "f5768fd03c0ee0fd0095945bedfd807156a9e41c5a466ab4b0a4b75c6933236c"
+  },
+  {
+    "path": "docs/数据字典_正式版.md",
+    "bytes": 10491,
+    "sha256": "1b282acf5f8f3d7cf5210db80392ab6437aa0e4ab50afb708a139988a9324b1e"
+  },
+  {
+    "path": "docs/数据治理报告.md",
+    "bytes": 10580,
+    "sha256": "40429971b1f19ea85b2252c2398a16f561ec70fa4b84888e2906d48f32ce1530"
+  },
+  {
+    "path": "docs/数据获取与融合_验收报告.md",
+    "bytes": 4163,
+    "sha256": "fdaa5d414d67892993eda281f18889511915cf9a611dff2c88eddb0c34a4eeef"
+  },
+  {
+    "path": "docs/数据获取与融合协议.md",
+    "bytes": 3621,
+    "sha256": "52510abcd782d205e69cc1d5776e9219d6b8094ef5dcdd7b5422dcf202f58e7c"
+  },
+  {
+    "path": "docs/期末报告_星系分类网络.docx",
+    "bytes": 904406,
+    "sha256": "dd263ccb4a03fdead276194aaa5969a890fa2b9513271f29c8926535d1d8f33e"
+  },
+  {
+    "path": "docs/期末报告_星系分类网络.md",
+    "bytes": 27434,
+    "sha256": "4e5f835be5ff8dcf7d054217e18d068b7a9fa5c0bd0b20eb1050803eaedec32f"
+  },
+  {
+    "path": "docs/期末报告_星系分类网络.pdf",
+    "bytes": 1668658,
+    "sha256": "b5457383b6a589f5d4a5a9bfac6f3bef98770789564c68f04999e737650f8a1e"
+  },
+  {
+    "path": "docs/缺失值对照实验方案.md",
+    "bytes": 3449,
+    "sha256": "969a5fcef7dbe9bdc19b46575abd2ac2fe80befc7ebcace9e4f418b8b51d7272"
+  },
+  {
+    "path": "docs/聚类与关联规则报告.md",
+    "bytes": 3674,
+    "sha256": "5d98b4527f12e9a089242957de1f2109d41d00d9992e6690233f678645e1cfab"
+  },
+  {
+    "path": "docs/课程模板符合性检查与补足报告.md",
+    "bytes": 9034,
+    "sha256": "c0751c50b9eb12879b1abf930fd369865ad21fd73a43cd2c22970f76caeddcba"
+  },
+  {
+    "path": "docs/防泄漏与划分说明.md",
+    "bytes": 5021,
+    "sha256": "ab7f2642c04f5e4aa50530ca3a92da8d13070d232fcc77ace67db82b78201e18"
+  },
+  {
+    "path": "notebooks/星系分类网络_一键重跑.ipynb",
+    "bytes": 6173,
+    "sha256": "40ae5fb106c8cb2ac8fa40ade0a2a3f7986aa5745e05aa3116efb9db95dfa766"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 262,
+    "sha256": "01bbda96b4d2889f02528db3f9953deadb0cce32853c70f4c8389a54e4a08ec1"
+  },
+  {
+    "path": "results/association/association_rules.json",
+    "bytes": 9100,
+    "sha256": "77b4f5fe63840fddfc21b7c2d241c8809c95cd915f0015cdda8501304decc30b"
+  },
+  {
+    "path": "results/association/rules.csv",
+    "bytes": 2182,
+    "sha256": "95fa6f6c31595bd3a4d39c517756416454f023d53ada5866525ecb16fa573deb"
+  },
+  {
+    "path": "results/classification/cv_progress.json",
+    "bytes": 24584,
+    "sha256": "6cb398799cb31ae37282e8bb43d694a2c3ce54a67526f87196a0994ad82c27e7"
+  },
+  {
+    "path": "results/classification/model_comparison.csv",
+    "bytes": 764,
+    "sha256": "a5fba869c895ed8bea035b0b9a374702e186953fb4d6393425cec5151ee203af"
+  },
+  {
+    "path": "results/classification/model_comparison.json",
+    "bytes": 126357,
+    "sha256": "6d6433eff15b3242ae38010219547283d6dd82daaf4fda174a830006a7144a25"
+  },
+  {
+    "path": "results/classification/tuning.json",
+    "bytes": 75773,
+    "sha256": "07ddec5e692c82af8fd3366e03e963ecbc255e65fd30db7755114d7eedcc1715"
+  },
+  {
+    "path": "results/clustering/clustering.json",
+    "bytes": 4897,
+    "sha256": "50f6efa2b8b465298621febb74350cdca47d89bcc581924d5d0f396993967f9c"
+  },
+  {
+    "path": "results/evaluation/error_slices.csv",
+    "bytes": 1190,
+    "sha256": "4dbe4e05e203d7337e9cf3c43fb7bd2ec9fdbd641a63e5f7edd3864669873b36"
+  },
+  {
+    "path": "results/evaluation/evaluation_summary.json",
+    "bytes": 2235,
+    "sha256": "c2fee8832845009b7072b276c03aae18e109b5c812e664bd5058d17256d2972b"
+  },
+  {
+    "path": "results/evaluation/shap_importance.json",
+    "bytes": 522,
+    "sha256": "4d8b66596a4f080b9123330bc9810a8a64cdc69e3f895e7931b458bbd0eae6d8"
+  },
+  {
+    "path": "results/evaluation/supplement.json",
+    "bytes": 13632,
+    "sha256": "9254e95116ef72a21f8cffd480b41ee897e514b5541a2accf2854ae66b57e9ca"
+  },
+  {
+    "path": "results/figures/fig01_class_distribution.png",
+    "bytes": 33137,
+    "sha256": "6e75c574199c11c121d6c42a14a843037b8469b07777aad57528a3733340f791"
+  },
+  {
+    "path": "results/figures/fig02_color_by_class.png",
+    "bytes": 36211,
+    "sha256": "86e23cc8ec83414a974080b316ca7d5b11db5294436717d7d2b852c45f255045"
+  },
+  {
+    "path": "results/figures/fig03_missing_strategies.png",
+    "bytes": 98229,
+    "sha256": "b970d95e18135633d1430077bbcfc26f1c081161a07783ea8dbec102923196e5"
+  },
+  {
+    "path": "results/figures/fig04_outlier_rules.png",
+    "bytes": 46822,
+    "sha256": "af82d1c98a847c40742b23168e458dc045df60507bb937eeb71266649c4283b2"
+  },
+  {
+    "path": "results/figures/fig05_model_comparison.png",
+    "bytes": 36797,
+    "sha256": "680ba608ec1efb4a92c30fbbb0f4320fe16fa91013be164cbf5508a3dd2acb40"
+  },
+  {
+    "path": "results/figures/fig06_confusion_matrix.png",
+    "bytes": 46986,
+    "sha256": "011ed4dbe1460833e5eee3d1d1e27007b8a6f43d6054e6f994e06522e104a049"
+  },
+  {
+    "path": "results/figures/fig07_roc.png",
+    "bytes": 54967,
+    "sha256": "e3a50778a8e16ce0b7b7432b4f006e4394ffa9a8044d87f78d417e3e8e5f9fd5"
+  },
+  {
+    "path": "results/figures/fig08_pr.png",
+    "bytes": 50800,
+    "sha256": "473e7b7c0e68d0f5f0f5dd6f2c9e8b09a30e28f76f3eda8b4e4a7f46c86dd52f"
+  },
+  {
+    "path": "results/figures/fig09_shap_importance.png",
+    "bytes": 57158,
+    "sha256": "ae5dd650184e4eaf6680be221c64c9a33ef4d3a252d1a3ef2a6a080c42b1963b"
+  },
+  {
+    "path": "results/figures/fig10_cluster_pca.png",
+    "bytes": 220164,
+    "sha256": "30df61942394a658e45cfe31436ec1212df7fbe7bf014bb8280bb16b6f68cc5d"
+  },
+  {
+    "path": "results/figures/fig11_k_selection.png",
+    "bytes": 82459,
+    "sha256": "0998d13d77be631b539749bbb3d7e4e5ff330ddc7c6dbe39310f7176954269dc"
+  },
+  {
+    "path": "results/figures/fig12_association_rules.png",
+    "bytes": 43245,
+    "sha256": "ad5282b02f0fa676cbbcb6a0d5b088dcafbe16b372fe43d34d6ed823e53373ba"
+  },
+  {
+    "path": "results/figures/fig13_local_shap.png",
+    "bytes": 116950,
+    "sha256": "6b4facbb1b250d33450cc5e749ccfdbdd4d5854b73581f25ac15b27ad405a87d"
+  },
+  {
+    "path": "results/governance/consistency.json",
+    "bytes": 4656,
+    "sha256": "16ebb699b851b935df291aedb5ca85c7fc40d1d1d88db2eb74b7a1ac95e524d9"
+  },
+  {
+    "path": "results/governance/governance_summary.json",
+    "bytes": 31309,
+    "sha256": "79797a40c57bd45860bf0782ba4e419ebbb90fb8736bead9db8b994892ef4b57"
+  },
+  {
+    "path": "results/governance/missing_experiment.json",
+    "bytes": 451032,
+    "sha256": "27aa3ad7e9c78c93a2cd6da8658bc0e9ad79c8609a3a5ef2ac816e6042407ec6"
+  },
+  {
+    "path": "results/governance/missing_summary.csv",
+    "bytes": 2030,
+    "sha256": "a6dd5c2e1fe09a0c6c918fb5284040b003b81542e680d2fb4c1d1859b632f489"
+  },
+  {
+    "path": "results/governance/outliers.json",
+    "bytes": 30283,
+    "sha256": "0a69dd0a4d261557c53c30c04d35ef33cda8328811b2c089eb1d33e93c24d9ed"
+  },
+  {
+    "path": "results/review_20261116/document_visual_qa.json",
+    "bytes": 937,
+    "sha256": "cf0bd88cd29a53d7bb3c58450c943172d21730823782befe2706ead66f51e6c4"
+  },
+  {
+    "path": "results/review_20261116/docx_template_fidelity.json",
+    "bytes": 511,
+    "sha256": "0dccff7537ba09c1061f8f6e5a77e4fa2ad90e2bb438ad6cfee8c393300cb051"
+  },
+  {
+    "path": "results/review_20261116/notebook_execution.json",
+    "bytes": 164,
+    "sha256": "4681356615ce86a8e95d94908da00d954884b81096dbee03ee5851eb3edf2c99"
+  },
+  {
+    "path": "results/review_20261116/raw_rebuild_validation.json",
+    "bytes": 480,
+    "sha256": "ce2fde831f556c72155c5c5bae06609d2bebab8a42de802ebc89a59e3dfcb3ae"
+  },
+  {
+    "path": "results/review_20261116/submission_validation.json",
+    "bytes": 4363,
+    "sha256": "28a663bacfed842b364f8ff5a4800779ad37091cf97b5c108f11b5c965511aee"
+  },
+  {
+    "path": "results/splits/fold_summary.json",
+    "bytes": 2101,
+    "sha256": "9750bf15ddb1ec6dc0e86b2bafcc8bd746c260cdb24661d0fec3b12368e16439"
+  },
+  {
+    "path": "results/splits/fold_verification.json",
+    "bytes": 755,
+    "sha256": "e83616047050cf698136b5e3bca1d5245d6a243766eb5e64ac28d1d5f87b9c33"
+  },
+  {
+    "path": "src/README.md",
+    "bytes": 3503,
+    "sha256": "1fc01b089ab5de192eb3aaceae0e206108f82202a6f9213128a18f27d2e351f6"
+  },
+  {
+    "path": "src/association_rules.py",
+    "bytes": 8104,
+    "sha256": "4c14c8aa0eb3c7810edc63054026a549754c1bfa69f24fbecd43f07dbc14e98c"
+  },
+  {
+    "path": "src/build_fused_dataset.py",
+    "bytes": 11701,
+    "sha256": "193fc306d081cc498fcb1fea2b11e3bba35b5fe18d6ed27b19c97ecf5a6723c0"
+  },
+  {
+    "path": "src/build_review_report.py",
+    "bytes": 29452,
+    "sha256": "594de890c29b50b281a336be72b74cade9747ee801659a1d4f4e4e1fb2ec8b02"
+  },
+  {
+    "path": "src/classification_experiment.py",
+    "bytes": 17443,
+    "sha256": "1b508c1ddd437ef1b462d10c2d203de9184cb36a8c79c2f748425b13a1ac8c6e"
+  },
+  {
+    "path": "src/clustering_analysis.py",
+    "bytes": 6243,
+    "sha256": "a9435f0009610c3ade6954e36323b762dd13f3892088b1e7c151721730faff49"
+  },
+  {
+    "path": "src/config.py",
+    "bytes": 2094,
+    "sha256": "662a48cae1faa52db8ab393e9dc7ded8a8759d330d62a28873c2105f62f3515d"
+  },
+  {
+    "path": "src/evaluation_figures.py",
+    "bytes": 13588,
+    "sha256": "71f0b9255282d87a4edc50546ea7e5b5a93a07bcc313217d70d1ee2d4cb074f7"
+  },
+  {
+    "path": "src/finalize_acquisition.py",
+    "bytes": 13718,
+    "sha256": "769887303568af8420dc5af701cc6427ae16ebeba17187d57eed94bf1386fcd8"
+  },
+  {
+    "path": "src/governance_consistency.py",
+    "bytes": 6660,
+    "sha256": "bcec7543fda930fb3463224b0ed5a5ed0e9a0582823ef92b93e99fba013f0afb"
+  },
+  {
+    "path": "src/governance_missing.py",
+    "bytes": 15011,
+    "sha256": "7ec3775e8ad29cbf07d7fbf6577cf910655cb1b87d8683c87fe57de1094b1220"
+  },
+  {
+    "path": "src/governance_outliers.py",
+    "bytes": 6092,
+    "sha256": "01b99ed42a52fea33f1c4b6240c4fe30e45b73888e66e3f39a189825423f0829"
+  },
+  {
+    "path": "src/make_splits.py",
+    "bytes": 4297,
+    "sha256": "25e81fe60a4adbbc1c59033b73a6f71cdd073e91a9177ef61e61d202d2fdf930"
+  },
+  {
+    "path": "src/render_course_report.py",
+    "bytes": 9579,
+    "sha256": "1323c0e2ffe3abe3776efbb192539e350beb018b9ff7c7cc7bb5cd973cbad987"
+  },
+  {
+    "path": "src/resources/course_template.docx",
+    "bytes": 20369,
+    "sha256": "555805dd0fb0165c77a9b47a2905c96e865454c578dba3a0f4c98b9122782e74"
+  },
+  {
+    "path": "src/resources/render_fonts.conf",
+    "bytes": 857,
+    "sha256": "2b388b89dd12f86d5981936ef2a781256e544a95c3ccb3ca480400765ff6a5c5"
+  },
+  {
+    "path": "src/run_local_pipeline.py",
+    "bytes": 3104,
+    "sha256": "280a5fa5ef24cdcb1141a29aa94fe86acb3c41496641fbc27bc049ff380e303e"
+  },
+  {
+    "path": "src/shap_importance.py",
+    "bytes": 173,
+    "sha256": "796e5181e0cf1f5f1323d0499e042d1b955c568e25e068a1f46bda488c3a1bef"
+  },
+  {
+    "path": "src/summarize_classification.py",
+    "bytes": 173,
+    "sha256": "5c972f24896e9621af696737173e5846e11b0fda40dde47dee1816a58b9160f2"
+  },
+  {
+    "path": "src/summarize_governance.py",
+    "bytes": 13587,
+    "sha256": "3abcc37b0bb66584c3298db5677df5f4722dfaffcc68a2f183c5392123d762f0"
+  },
+  {
+    "path": "src/supplement_evaluation.py",
+    "bytes": 7135,
+    "sha256": "2d2476b1d73044f25bc78bd54baa42ba4bee3a7960524f533453ac1d765389af"
+  },
+  {
+    "path": "src/validate_course_submission.py",
+    "bytes": 5465,
+    "sha256": "19b76e69a6f0b102eb7ec8347efeca8cccf4319df4ead68b06307a1ee08bd239"
+  },
+  {
+    "path": "src/validate_data_delivery.py",
+    "bytes": 2724,
+    "sha256": "d78d461a453bed4bdded43136ea70ee87c458766390cf156bfd124500a7c6276"
+  },
+  {
+    "path": "src/verify_splits.py",
+    "bytes": 3656,
+    "sha256": "fbd733ce6e584429b6762f6b103c775af0fbad3a1d40f9920cb8e0d8d5c40f1e"
+  }
+]

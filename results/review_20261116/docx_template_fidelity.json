@@ -1,0 +1,19 @@
+{
+  "reference_sha256": "555805dd0fb0165c77a9b47a2905c96e865454c578dba3a0f4c98b9122782e74",
+  "output_sha256": "dd263ccb4a03fdead276194aaa5969a890fa2b9513271f29c8926535d1d8f33e",
+  "preserved_parts": [
+    "_rels/.rels",
+    "docProps/custom.xml",
+    "word/header1.xml",
+    "word/footer1.xml",
+    "word/header2.xml",
+    "word/header3.xml",
+    "word/footer2.xml",
+    "word/footer3.xml",
+    "word/numbering.xml",
+    "word/fontTable.xml",
+    "word/theme/theme1.xml"
+  ],
+  "sections": 2,
+  "images": 13
+}

@@ -1,0 +1,98 @@
+{
+  "created_at": "2026-11-16T09:51:46+08:00",
+  "seed": 20261112,
+  "n_folds": 5,
+  "rows": 1314678,
+  "method": "per-class permutation, then position modulo n_folds",
+  "classes": {
+    "GALAXY": 845159,
+    "QSO": 240616,
+    "STAR": 228903
+  },
+  "overall_fraction": {
+    "GALAXY": 0.64286388,
+    "QSO": 0.18302276,
+    "STAR": 0.17411336
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "rows": 262937,
+      "classes": {
+        "GALAXY": 169032,
+        "QSO": 48124,
+        "STAR": 45781
+      },
+      "class_fraction": {
+        "GALAXY": 0.64286122,
+        "QSO": 0.18302483,
+        "STAR": 0.17411395
+      }
+    },
+    {
+      "fold": 1,
+      "rows": 262936,
+      "classes": {
+        "GALAXY": 169032,
+        "QSO": 48123,
+        "STAR": 45781
+      },
+      "class_fraction": {
+        "GALAXY": 0.64286366,
+        "QSO": 0.18302172,
+        "STAR": 0.17411461
+      }
+    },
+    {
+      "fold": 2,
+      "rows": 262936,
+      "classes": {
+        "GALAXY": 169032,
+        "QSO": 48123,
+        "STAR": 45781
+      },
+      "class_fraction": {
+        "GALAXY": 0.64286366,
+        "QSO": 0.18302172,
+        "STAR": 0.17411461
+      }
+    },
+    {
+      "fold": 3,
+      "rows": 262935,
+      "classes": {
+        "GALAXY": 169032,
+        "QSO": 48123,
+        "STAR": 45780
+      },
+      "class_fraction": {
+        "GALAXY": 0.64286611,
+        "QSO": 0.18302242,
+        "STAR": 0.17411147
+      }
+    },
+    {
+      "fold": 4,
+      "rows": 262934,
+      "classes": {
+        "GALAXY": 169031,
+        "QSO": 48123,
+        "STAR": 45780
+      },
+      "class_fraction": {
+        "GALAXY": 0.64286475,
+        "QSO": 0.18302312,
+        "STAR": 0.17411213
+      }
+    }
+  ],
+  "max_class_fraction_deviation": 2.6599766939083835e-06,
+  "logical_sha256": "b3c85a4d649bc5d3f960985339b8f3f4cfa69dd9de09dda62a8750ff98196f71",
+  "file": "<PROJECT_ROOT>/data/processed/folds.parquet",
+  "source_dataset_sha256": "fab99e870615b6b41205b3c756012f2ed4e7bb4b7d3aa094747af68b14ee385f",
+  "environment": {
+    "python": "3.13.7",
+    "numpy": "1.26.4",
+    "pyarrow": "22.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "verified_at": "2026-11-16T13:18:09+08:00",
+  "passed": true,
+  "rows": 1314678,
+  "fold_sizes": [
+    262937,
+    262936,
+    262936,
+    262935,
+    262934
+  ],
+  "max_class_fraction_deviation": 2.6622705513457134e-06,
+  "logical_sha256": "b3c85a4d649bc5d3f960985339b8f3f4cfa69dd9de09dda62a8750ff98196f71",
+  "checks": [
+    "row count matches fused table",
+    "source_id unique",
+    "source_id set identical to fused table",
+    "labels carried over unchanged",
+    "all folds present",
+    "labels inside declared domain",
+    "fold sizes within 3 rows",
+    "class fractions within 1e-5 of overall",
+    "split reproducible from fixed seed",
+    "logical hash matches recorded split",
+    "source dataset hash matches acquisition record"
+  ]
+}

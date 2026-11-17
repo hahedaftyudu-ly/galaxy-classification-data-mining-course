@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "rows": 1314678,
+  "fields": 59,
+  "elapsed_s": 175.276,
+  "rebuilt_sha256": "fab99e870615b6b41205b3c756012f2ed4e7bb4b7d3aa094747af68b14ee385f",
+  "original_sha256": "fab99e870615b6b41205b3c756012f2ed4e7bb4b7d3aa094747af68b14ee385f",
+  "byte_identical": true,
+  "mode": "isolated rebuild from raw catalogue and 395 metadata archives, no candidate parquet cache",
+  "source_script_sha256": "193fc306d081cc498fcb1fea2b11e3bba35b5fe18d6ed27b19c97ecf5a6723c0"
+}

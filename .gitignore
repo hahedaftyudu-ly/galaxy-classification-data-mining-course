@@ -1,0 +1,17 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+chat/
+*.parquet
+*.joblib
+*.npz
+*.pt
+*.fits
+*.gz
+data/raw/
+results/review_20261116/before/
+.lo_profile/
+.mplconfig/
